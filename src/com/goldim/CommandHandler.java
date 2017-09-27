@@ -2,7 +2,7 @@ package com.goldim;
 
 public class CommandHandler {
     
-    public void commandExec(String commandLine){
+    public void rasborStroki(String commandLine){
         String[] carr = commandLine.split(" ");
         String command = carr[0];
         if (!command.equals("quit")) {
@@ -24,6 +24,10 @@ public class CommandHandler {
                     break;
             }
         }
+
+    }
+
+    private void commandExec (String command){
 
     }
 }
